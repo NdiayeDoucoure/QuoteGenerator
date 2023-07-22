@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Générateur de citations</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="body-content">
+      <div class="container">
+        <div class="quote-container">
+          <h1 class="quote">
+            <i class="fas fa-quote-left"></i> Citation du jour
+            <i class="fas fa-quote-right"></i>
+          </h1>
+          <p class="quote-text" id="quoteText">
+            Cliquer sur "Nouvelle citation" .
+          </p>
+          <p class="translated-text" id="translatedText"></p>
+        </div>
+        <div class="buttons">
+          <button class="button" id="newQuote">
+            <i class="fas fa-random"></i> Nouvelle citation
+          </button>
+          <button class="button" id="translateToFrench">
+            <i class="fas fa-language"></i> Traduire en Français
+          </button>
+          <button class="button" id="shareTwitter">
+            <i class="fab fa-twitter"></i> Partager sur Twitter
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-text">&copy; Ndiaye Xassida, Software Developer</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
